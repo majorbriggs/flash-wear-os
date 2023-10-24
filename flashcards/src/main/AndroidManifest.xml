@@ -20,7 +20,7 @@
         <service
             android:name=".complication.FlashCardComplicationService"
             android:exported="true"
-            android:label="@string/word_of_the_day"
+            android:label="@string/daily_flashcards"
             android:icon="@mipmap/ic_launcher"
             android:permission="com.google.android.wearable.permission.BIND_COMPLICATION_PROVIDER">
             <intent-filter>
@@ -40,7 +40,7 @@
             android:name=".tile.tilesapi.WordOfTheDayTileService"
             android:icon="@drawable/ic_launcher_foreground"
             android:label="@string/word_of_the_day"
-            android:description="@string/word_of_the_day"
+            android:description="@string/daily_flashcards"
             android:exported="true"
             android:permission="com.google.android.wearable.permission.BIND_TILE_PROVIDER">
 
